@@ -63,7 +63,7 @@ nav> a:hover{
     border: none;
     border-radius: 4px;
     padding-left: 10px;
-    background-image: linear-gradient(to bottom right, #f8b3d4, #b6a7f7);
+    background-image: linear-gradient(to bottom right, #fad8e9, #dfd9fa);
 }
 .label-style{
     width: 120px;
@@ -78,16 +78,18 @@ nav> a:hover{
     width: 70px;
 }
 .contact-btn-style{
+    margin-top: 20px;
+    box-shadow: 2px 2px 5px gray;
     background-image: linear-gradient(to bottom right, #880946, #160561);
 }
 .heading-style{
-    text-shadow: 5px 6px 12px #faadd2;
+    text-shadow: 5px 6px 12px #fad2e5;
 }
 .form-style{
     margin: 0px 20px;
     border-radius: 8px;
     padding-left: 10px;
-    box-shadow: 2px 2px 8px #341f97;
+    box-shadow: 2px 2px 12px #341f97;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -102,6 +104,34 @@ footer{
 }
 .footer-content-style{
     text-align: center;
+}
+.typing-demo {
+    width: 21ch;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 3px solid;
+    animation-name: typing, blink;
+    animation-duration: 4s, 5s;
+    animation-timing-function: steps(22), step-end;
+    animation-iteration-count: infinite, infinite;
+    animation-direction: normal, alternate;
+  }
+  
+  @keyframes typing {
+    from {
+      width: 0
+    }
+  }
+      
+  @keyframes blink {
+    50% {
+      border-color: transparent
+    }
+  }
+
+.about-section-style{
+    height: 500px;
+    background-color: rgb(237, 243, 245);
 }
 
 /* Resposnive design  */
