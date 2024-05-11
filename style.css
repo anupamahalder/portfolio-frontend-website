@@ -12,18 +12,57 @@ a:hover{
     border-radius: 3px;
 }
 .banner-style{
-    height: 600px;
+    height: 550px;
     background-color: #341f97 ;
     background-color: #e84393 ;
-    background-image: linear-gradient(to bottom right, #e84393, #341f97);
+    background-image: linear-gradient(to bottom right, #880946, #160561);
     color: white;
 
 }
 .banner-img-style{
     /* background: yellow; */
     border-radius: 50%;
-    border: 4px solid white;
-    box-shadow: 2px 5px 10px rgb(61, 60, 60);
+    height: 320px;
+    border: 4px solid #ecf0f1;
+    box-shadow: 1px 5px 4px 2px rgb(8, 8, 8);
     margin-right: 20px;
     margin-bottom: 20px;
+}
+.project-section-style{
+    height: 800px;
+    color: white;
+    background-color: #ecf0f1;
+}
+.input-style{
+    width: 500px;
+    border: none;
+    border-radius: 4px;
+    padding-left: 10px;
+    background-image: linear-gradient(to bottom right, #f8b3d4, #b6a7f7);
+}
+.label-style{
+    width: 120px;
+}
+.send-btn-style > button{
+    background-color: #341f97;
+    height: 40px;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    font-weight: bold;
+    width: 70px;
+}
+.contact-btn-style{
+    background-image: linear-gradient(to bottom right, #880946, #160561);
+}
+.heading-style{
+    text-shadow: 5px 6px 12px #faadd2;
+}
+.form-style{
+    margin: 0px 20px;
+    border-radius: 8px;
+    box-shadow: 2px 2px 8px #341f97;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
