@@ -134,6 +134,19 @@ footer{
     background-color: rgb(237, 243, 245);
 }
 
+.card-container-style{
+    background-color: linear-gradient(to bottom right, #880946, #160561);
+}
+.skill-btn-style{
+    cursor: none;
+    border: none;
+    border-radius: 5px;
+}
+.project-title{
+    color: #160561;
+}
+
+
 /* Resposnive design  */
 
 @media screen and (min-width: 576px) {
