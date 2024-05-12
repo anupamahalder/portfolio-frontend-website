@@ -12,7 +12,7 @@ nav> a:hover{
     border-radius: 3px;
 }
 .banner-style{
-    height: 550px;
+    height: 600px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -56,7 +56,6 @@ nav> a:hover{
 .project-section-style{
     /* height: 800px; */
     color: white;
-    background-color: #ecf0f1;
 }
 .input-style{
     width: 500px;
@@ -130,36 +129,36 @@ footer{
   }
 
 .about-section-style{
-    height: 500px;
-    background-color: rgb(237, 243, 245);
+    /* height: 500px; */
+    /* background-color: rgb(237, 243, 245); */
+    color: black;
 }
 
 .card-container-style{
-    background-color: linear-gradient(to bottom right, #880946, #160561);
+    background-image: linear-gradient(to right bottom, #f8cee2, #c5baf3);
 }
 .skill-btn-style{
     cursor: none;
     border: none;
     border-radius: 5px;
+    background-color: rgb(252, 226, 226);
 }
 .project-title{
     color: #160561;
+}
+.anchor-style{
+    text-decoration: none;
 }
 
 
 /* Resposnive design  */
 
-@media screen and (min-width: 576px) {
+@media screen and (min-width: 576px) and (max-width: 992px) {
     .form-style{
-        margin: 0px 200px;
+        margin: 0px 20px;
     }
     .form-style>div{
         padding: 50px 0px;
-    }
-}
-@media screen and (max-width: 576px) {
-    .input-style{
-        width: 350px;
     }
     .banner-img-style{
         height: 200px;
@@ -179,5 +178,32 @@ footer{
     }
     .banner-para-style{
         width: auto;
+    }
+}
+@media screen and (max-width: 576px) {
+    .input-style{
+        width: 320px;
+    }
+    .banner-img-style{
+        height: 200px;
+        justify-content: center;
+    }
+    .banner-style{
+        flex-direction: column;
+        height: auto;
+        padding: 50px 0px;
+    }
+    .banner-heading-style{
+        font-size: 32px;
+        margin-bottom: 20px;
+    }
+    .banner-sub-heading-style{
+        font-size: 18px;
+    }
+    .banner-para-style{
+        width: auto;
+    }
+    .form-style{
+        margin: 0 10px;
     }
 }
