@@ -136,6 +136,7 @@ footer{
 
 .card-container-style{
     background-image: linear-gradient(to right bottom, #f8cee2, #c5baf3);
+    padding: 10px 20px;
 }
 .skill-btn-style{
     cursor: none;
@@ -148,6 +149,12 @@ footer{
 }
 .anchor-style{
     text-decoration: none;
+}
+.logo-style{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: black;
 }
 
 
